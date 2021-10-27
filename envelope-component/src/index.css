@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.envelope {
+  font-family: 'Roboto', sans-serif;
+  width: calc(100%/1.2);
+  height: calc(100vh/3.3);
+  border: 1.5px solid #AAAAAA;
+  margin-left: 2.6%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 10px 16px;
+}
+
+.address-label {
+  line-height: 16px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.receiver-address-label {
+  position: relative;
+  top: 45%;
+}
+.stamp {
+  width: 70px;
+  height: 80px;
+  margin-top: 12px;
+  border: 1.86px solid #AAAAAA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stamp-text {
+  color: #AAAAAA;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: bold;
+  transform: rotateZ(-45deg);
+}

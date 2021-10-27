@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Koh+Santepheap:wght@300;400&family=Roboto:wght@100&family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+.credit-card {
+  background-color: gold;
+  box-shadow: 1px 1px 10px #d0afff; /* nice effect */
+  width: 518px;
+  margin-top: 4.3%;
+  margin-left: 8.6%;
+  /*border: 2px solid lawngreen; */
+  display: flex;
+  flex-direction: column;
+  border-radius: 28px;
+}
+
+.bank-name{
+  align-self: flex-end;
+  margin: 1.6rem 2.8rem 3rem 0;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-size: 38px;
+  /*border: 1px solid saddlebrown;*/
+}
+
+.card-number-row {
+  display: flex;
+  flex-direction: column;
+}
+.credit-card-number {
+  margin-left: 3rem;
+  margin-right: 1.2rem;
+  margin-bottom: -12px;;
+  /* use Koh font - weight 400 */
+  font-family: 'Koh Santepheap', cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+  display: flex;
+  /*border: 2px solid cadetblue; */
+}
+.four-digits-chunk {
+  width: 25%;
+  letter-spacing: 4px;
+  /*border: 1px solid salmon; */
+}
+
+.first-four-digits-of-card-number {
+  margin-left: 2.5rem;
+  /*Use Cairo font - weight 300*/
+  font-family: 'Cairo', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  width: fit-content;
+  /*border: 1px solid yellow; */
+}
+
+.card-validity-details {
+  width: fit-content;
+  margin-left: 35%;
+  display: flex;
+  align-items: center;
+}
+
+.valid-thru-text {
+  /* Use Roboto font - weight 100*/
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  display: inline-block;
+  width: 48px;
+  height: 32px;
+  line-height: 16px;
+  /*border: 1px solid burlywood; */
+}
+
+.validity-date {
+  /* Use Koh font - weight 300 */
+  font-family: 'Koh Santepheap', cursive;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 32px;
+  /*border: 1px solid darkblue; */
+}
+.card-holder-name {
+  margin-left: 2.5rem;
+  margin-bottom: 1.4rem;
+  margin-top: 1.5rem;
+  /* Use Zilla font - weight 400 */
+  font-family: 'Zilla Slab', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 34px;
+  /*border: 1px solid cyan; */
+  display: flex;
+  /* width: 207.5px; */
+  max-width: 50%;
+  line-height: 20px;
+  /*justify-content: space-between;*/
+}
+
+.name-part {
+  margin-right: 17px
+}
